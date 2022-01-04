@@ -19,13 +19,14 @@ p{
 .paragraph{
     margin-right: 300px;
 }
-section{
+.flexible-conainer{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding: 2%;
+    
    
 }
 .half-width img{
@@ -48,4 +49,39 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.ex-item{
+    box-shadow: 10px 10px 20px rgb(83, 88, 73);
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border-left:10px cornflowerblue ;
+    border: 10px solid;
+
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#web-dev-ex{   
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+  
+}
+#web-dev-expe{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(26, 26, 36), rgb(86, 94, 94));
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
 }
